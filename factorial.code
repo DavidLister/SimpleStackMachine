@@ -1,0 +1,17 @@
+push 6 # This is the operand for the factorial
+copy
+push 1
+subtract
+copy
+if
+goto 0
+delete
+swap
+copy
+if
+goto 14
+delete
+display 0
+halt
+multiply
+goto 7
